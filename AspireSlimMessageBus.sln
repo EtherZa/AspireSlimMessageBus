@@ -1,0 +1,45 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireSlimMessageBus.AppHost", "AspireSlimMessageBus.AppHost\AspireSlimMessageBus.AppHost.csproj", "{D83DF23A-F7B8-4256-BA11-883A12A4941E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireSlimMessageBus.ServiceDefaults", "AspireSlimMessageBus.ServiceDefaults\AspireSlimMessageBus.ServiceDefaults.csproj", "{BA499E46-98FC-48A1-8708-6E2C616913BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireSlimMessageBus.Service", "AspireSlimMessageBus.Service\AspireSlimMessageBus.Service.csproj", "{A88DB290-3CD3-4DD8-87B6-1CB7A5BB8F13}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7223559D-5C6B-443A-930A-DD6DC877EFB2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{154846E3-C9A4-42AA-AB06-F8EA1B99FDB6}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D83DF23A-F7B8-4256-BA11-883A12A4941E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D83DF23A-F7B8-4256-BA11-883A12A4941E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D83DF23A-F7B8-4256-BA11-883A12A4941E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D83DF23A-F7B8-4256-BA11-883A12A4941E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA499E46-98FC-48A1-8708-6E2C616913BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA499E46-98FC-48A1-8708-6E2C616913BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA499E46-98FC-48A1-8708-6E2C616913BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA499E46-98FC-48A1-8708-6E2C616913BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A88DB290-3CD3-4DD8-87B6-1CB7A5BB8F13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A88DB290-3CD3-4DD8-87B6-1CB7A5BB8F13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A88DB290-3CD3-4DD8-87B6-1CB7A5BB8F13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A88DB290-3CD3-4DD8-87B6-1CB7A5BB8F13}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D83DF23A-F7B8-4256-BA11-883A12A4941E} = {7223559D-5C6B-443A-930A-DD6DC877EFB2}
+		{BA499E46-98FC-48A1-8708-6E2C616913BF} = {7223559D-5C6B-443A-930A-DD6DC877EFB2}
+		{A88DB290-3CD3-4DD8-87B6-1CB7A5BB8F13} = {7223559D-5C6B-443A-930A-DD6DC877EFB2}
+	EndGlobalSection
+EndGlobal
